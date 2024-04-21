@@ -1,0 +1,248 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+a.nav-link {
+    color: black !important;
+}
+
+a.nav-link:hover {
+    color: #fcbb3a !important;
+}
+
+.nav-item.active a.nav-link {
+    font-weight: 800;
+    color: #fcbb3a !important;
+    letter-spacing: 0.05cap;
+}
+/* navbar */
+
+/* hero */
+.hero-section {
+    margin-top: 32px;
+}
+
+.hero-section h1 {
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.hero-section p {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.hero-section .btn-cta img {
+    width: 67px;
+}
+
+.hero-section .btn-cta {
+    margin-top: 80px;
+}
+
+.hero-section .btn {
+    border-radius: 0 18px 18px 0;
+    background-color: #fcbb3a;
+    font-weight: 500;
+    margin-left: 16px;
+}
+/* hero */
+
+/* categories */
+.categories-thumbnail {
+    width: 100%;
+    height: 460px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.component-categories {
+    margin-bottom: 32px;
+}
+
+.component-categories-small .categories-thumbnail {
+    height: 215px;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.15);
+}
+
+.categories-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease;
+}
+
+.tag {
+    position: absolute;
+    background-color: #fcbb3a;
+    border-radius: 0 18px 0 18px;
+    z-index: 3;
+    bottom: 0;
+    padding: 8px 16px;
+}
+
+.tag span {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #171938;
+}
+
+.title-line {
+    border: 2px solid #fcbb3a;
+    margin: 0;
+    padding: 0;
+    width: 7.5%;
+}
+/* categories */
+
+/* products */
+.product-card {
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.product-card:hover {
+    text-decoration: none;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.35);
+}
+
+.product-thumbnail {
+    background-color: #f6fafd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.product-thumbnail img {
+    max-height: 160px;
+    max-width: 80%;
+}
+
+.product-info {
+    text-align: center;
+    padding: 16px;
+}
+
+.product-card p {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card .price {
+    font-weight: 600;
+    color: #fcbb3a;
+    margin-top: 8px;
+}
+/* products */
+
+/* article */
+.article-details {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 32px;
+}
+
+.article-details .rating img {
+    width: 32px;
+}
+
+.article-title {
+    font-weight: 400;
+    color: #152c5b;
+}
+
+.article-details p {
+    color: #b0b0b0;
+}
+
+.article-details a.btn {
+    color: black;
+    font-weight: 500;
+    padding: 8px 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 32px;
+}
+/* article */
+
+/* footer */
+.social-media {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.2s ease;
+}
+
+.social-media img {
+    width: 48px;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1);
+}
+
+.address {
+    text-align: right;
+}
+
+.address h6 {
+    color: #152c5b;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.address p {
+    color: #b0b0b0;
+    margin: 0;
+    font-size: 16px;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.end-page {
+    margin-top: 48px;
+    background-color: #171938;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    font-size: 16px;
+}
+
+.end-page a {
+    color: #fcbb3a;
+}
+/* footer */
